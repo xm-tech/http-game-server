@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "open_type": 0,
+    "open_para": 0,
+    "gold": 0,
+    "diamond": 0
+  },
+  {
+    "id": 2,
+    "open_type": 0,
+    "open_para": 0,
+    "gold": 0,
+    "diamond": 0
+  },
+  {
+    "id": 3,
+    "open_type": 1,
+    "open_para": 5,
+    "gold": 250,
+    "diamond": 0
+  },
+  {
+    "id": 4,
+    "open_type": 1,
+    "open_para": 10,
+    "gold": 3000,
+    "diamond": 0
+  },
+  {
+    "id": 5,
+    "open_type": 1,
+    "open_para": 15,
+    "gold": 30000,
+    "diamond": 0
+  },
+  {
+    "id": 6,
+    "open_type": 1,
+    "open_para": 20,
+    "gold": 90000,
+    "diamond": 0
+  },
+  {
+    "id": 7,
+    "open_type": 1,
+    "open_para": 25,
+    "gold": 200000,
+    "diamond": 0
+  },
+  {
+    "id": 8,
+    "open_type": 1,
+    "open_para": 30,
+    "gold": 400000,
+    "diamond": 0
+  },
+  {
+    "id": 9,
+    "open_type": 1,
+    "open_para": 35,
+    "gold": 700000,
+    "diamond": 0
+  },
+  {
+    "id": 10,
+    "open_type": 1,
+    "open_para": 40,
+    "gold": 1100000,
+    "diamond": 0
+  },
+  {
+    "id": 11,
+    "open_type": 1,
+    "open_para": 50,
+    "gold": 4700000,
+    "diamond": 0
+  }
+]

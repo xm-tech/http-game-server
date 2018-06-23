@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0" metadata-complete="true">
+
+	<listener>
+		<listener-class>com.ppgames.core.GameContextListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>GateWay</servlet-name>
+		<servlet-class>com.ppgames.core.GateWay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GateWay</servlet-name>
+		<url-pattern>/game</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DruidStatView</servlet-name>
+		<servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DruidStatView</servlet-name>
+		<url-pattern>/druid/*</url-pattern>
+	</servlet-mapping>
+</web-app>

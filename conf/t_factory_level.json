@@ -1,0 +1,92 @@
+[
+  {
+    "level": 1,
+    "need_level": 5,
+    "gold": 500,
+    "time": 60,
+    "num": 50,
+    "iconPath": "factory_level_0",
+    "name": "小车间1级"
+  },
+  {
+    "level": 2,
+    "need_level": 10,
+    "gold": 6000,
+    "time": 58,
+    "num": 60,
+    "iconPath": "factory_level_0",
+    "name": "小车间2级"
+  },
+  {
+    "level": 3,
+    "need_level": 15,
+    "gold": 60000,
+    "time": 56,
+    "num": 70,
+    "iconPath": "factory_level_0",
+    "name": "小车间3级"
+  },
+  {
+    "level": 4,
+    "need_level": 20,
+    "gold": 180000,
+    "time": 54,
+    "num": 80,
+    "iconPath": "factory_level_1",
+    "name": "小工厂4级"
+  },
+  {
+    "level": 5,
+    "need_level": 25,
+    "gold": 400000,
+    "time": 52,
+    "num": 90,
+    "iconPath": "factory_level_1",
+    "name": "小工厂5级"
+  },
+  {
+    "level": 6,
+    "need_level": 30,
+    "gold": 800000,
+    "time": 50,
+    "num": 100,
+    "iconPath": "factory_level_1",
+    "name": "小工厂6级"
+  },
+  {
+    "level": 7,
+    "need_level": 35,
+    "gold": 1400000,
+    "time": 48,
+    "num": 110,
+    "iconPath": "factory_level_2",
+    "name": "大工厂7级"
+  },
+  {
+    "level": 8,
+    "need_level": 40,
+    "gold": 2250000,
+    "time": 46,
+    "num": 120,
+    "iconPath": "factory_level_2",
+    "name": "大工厂8级"
+  },
+  {
+    "level": 9,
+    "need_level": 50,
+    "gold": 9500000,
+    "time": 43,
+    "num": 130,
+    "iconPath": "factory_level_2",
+    "name": "大工厂9级"
+  },
+  {
+    "level": 10,
+    "need_level": 0,
+    "gold": 0,
+    "time": 40,
+    "num": 140,
+    "iconPath": "factory_level_2",
+    "name": "大工厂10级"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "level": 1,
+    "need_level": 5,
+    "gold": 200,
+    "time": 17,
+    "num": 50,
+    "iconPath": "transport_level_0",
+    "name": "电动车1级"
+  },
+  {
+    "level": 2,
+    "need_level": 10,
+    "gold": 3000,
+    "time": 16,
+    "num": 60,
+    "iconPath": "transport_level_0",
+    "name": "电动车2级"
+  },
+  {
+    "level": 3,
+    "need_level": 15,
+    "gold": 30000,
+    "time": 15,
+    "num": 70,
+    "iconPath": "transport_level_0",
+    "name": "电动车3级"
+  },
+  {
+    "level": 4,
+    "need_level": 20,
+    "gold": 90000,
+    "time": 14,
+    "num": 80,
+    "iconPath": "transport_level_1",
+    "name": "小货车4级"
+  },
+  {
+    "level": 5,
+    "need_level": 25,
+    "gold": 200000,
+    "time": 13,
+    "num": 90,
+    "iconPath": "transport_level_1",
+    "name": "小货车5级"
+  },
+  {
+    "level": 6,
+    "need_level": 30,
+    "gold": 400000,
+    "time": 12,
+    "num": 100,
+    "iconPath": "transport_level_1",
+    "name": "小货车6级"
+  },
+  {
+    "level": 7,
+    "need_level": 35,
+    "gold": 700000,
+    "time": 11,
+    "num": 110,
+    "iconPath": "transport_level_2",
+    "name": "大货车7级"
+  },
+  {
+    "level": 8,
+    "need_level": 40,
+    "gold": 1100000,
+    "time": 10,
+    "num": 120,
+    "iconPath": "transport_level_2",
+    "name": "大货车8级"
+  },
+  {
+    "level": 9,
+    "need_level": 50,
+    "gold": 4700000,
+    "time": 9,
+    "num": 130,
+    "iconPath": "transport_level_2",
+    "name": "大货车9级"
+  },
+  {
+    "level": 10,
+    "need_level": 0,
+    "gold": 0,
+    "time": 8,
+    "num": 140,
+    "iconPath": "transport_level_2",
+    "name": "大货车10级"
+  }
+]

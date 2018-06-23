@@ -1,0 +1,21 @@
+{
+  "0": {
+    "id": 0,
+    "type": 0,
+    "tasks": [
+      {
+        "id": 0,
+        "type": 0,
+        "eventName": "gold",
+        "completeValue": 10000
+      }
+    ],
+    "rewards": [
+      {
+        "type": 3,
+        "id": 1,
+        "num": 12
+      }
+    ]
+  }
+}

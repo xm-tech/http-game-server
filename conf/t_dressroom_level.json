@@ -1,0 +1,98 @@
+[
+  {
+    "level": 1,
+    "gold": 0,
+    "buff": 0,
+    "need_level": 4
+  },
+  {
+    "level": 2,
+    "gold": 300,
+    "buff": 1,
+    "need_level": 8
+  },
+  {
+    "level": 3,
+    "gold": 1500,
+    "buff": 2,
+    "need_level": 12
+  },
+  {
+    "level": 4,
+    "gold": 20000,
+    "buff": 3,
+    "need_level": 16
+  },
+  {
+    "level": 5,
+    "gold": 70000,
+    "buff": 4,
+    "need_level": 20
+  },
+  {
+    "level": 6,
+    "gold": 150000,
+    "buff": 5,
+    "need_level": 24
+  },
+  {
+    "level": 7,
+    "gold": 300000,
+    "buff": 6,
+    "need_level": 28
+  },
+  {
+    "level": 8,
+    "gold": 500000,
+    "buff": 7,
+    "need_level": 32
+  },
+  {
+    "level": 9,
+    "gold": 850000,
+    "buff": 8,
+    "need_level": 36
+  },
+  {
+    "level": 10,
+    "gold": 1300000,
+    "buff": 9,
+    "need_level": 40
+  },
+  {
+    "level": 11,
+    "gold": 1800000,
+    "buff": 10,
+    "need_level": 44
+  },
+  {
+    "level": 12,
+    "gold": 2700000,
+    "buff": 12,
+    "need_level": 48
+  },
+  {
+    "level": 13,
+    "gold": 4000000,
+    "buff": 14,
+    "need_level": 52
+  },
+  {
+    "level": 14,
+    "gold": 5800000,
+    "buff": 16,
+    "need_level": 56
+  },
+  {
+    "level": 15,
+    "gold": 7500000,
+    "buff": 18,
+    "need_level": 60
+  },
+  {
+    "level": 16,
+    "gold": 9000000,
+    "buff": 20,
+    "need_level": 0
+  }
+]

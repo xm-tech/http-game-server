@@ -1,0 +1,114 @@
+[
+  {
+    "level": 1,
+    "size": 10,
+    "gold": 400,
+    "diamond": 10,
+    "need_level": 3
+  },
+  {
+    "level": 2,
+    "size": 11,
+    "gold": 800,
+    "diamond": 10,
+    "need_level": 6
+  },
+  {
+    "level": 3,
+    "size": 12,
+    "gold": 5000,
+    "diamond": 10,
+    "need_level": 9
+  },
+  {
+    "level": 4,
+    "size": 13,
+    "gold": 35000,
+    "diamond": 35,
+    "need_level": 12
+  },
+  {
+    "level": 5,
+    "size": 14,
+    "gold": 95000,
+    "diamond": 95,
+    "need_level": 15
+  },
+  {
+    "level": 6,
+    "size": 15,
+    "gold": 180000,
+    "diamond": 180,
+    "need_level": 18
+  },
+  {
+    "level": 7,
+    "size": 16,
+    "gold": 300000,
+    "diamond": 300,
+    "need_level": 21
+  },
+  {
+    "level": 8,
+    "size": 17,
+    "gold": 480000,
+    "diamond": 480,
+    "need_level": 24
+  },
+  {
+    "level": 9,
+    "size": 18,
+    "gold": 750000,
+    "diamond": 750,
+    "need_level": 27
+  },
+  {
+    "level": 10,
+    "size": 19,
+    "gold": 1000000,
+    "diamond": 1000,
+    "need_level": 30
+  },
+  {
+    "level": 11,
+    "size": 20,
+    "gold": 1500000,
+    "diamond": 1500,
+    "need_level": 33
+  },
+  {
+    "level": 12,
+    "size": 21,
+    "gold": 2000000,
+    "diamond": 2000,
+    "need_level": 36
+  },
+  {
+    "level": 13,
+    "size": 22,
+    "gold": 2600000,
+    "diamond": 2600,
+    "need_level": 39
+  },
+  {
+    "level": 14,
+    "size": 23,
+    "gold": 3600000,
+    "diamond": 3600,
+    "need_level": 42
+  },
+  {
+    "level": 15,
+    "size": 24,
+    "gold": 4800000,
+    "diamond": 4800,
+    "need_level": 45
+  },
+  {
+    "level": 16,
+    "size": 25,
+    "gold": 0,
+    "diamond": 0,
+    "need_level": 0
+  }
+]

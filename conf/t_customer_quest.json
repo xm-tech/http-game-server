@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 2,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 3,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 4,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 5,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 6,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 7,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 8,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 9,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 10,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 950, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":4},{"type":12,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":5},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":12},{"type":7,"style":5},{"type":12,"style":4}]
+  },
+  {
+    "id": 11,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 12,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 13,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 14,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 15,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 16,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 17,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 18,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 19,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 20,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":7,"style":5},{"type":7,"style":7},{"type":4,"style":5},{"type":4,"style":9},{"type":5,"style":4},{"type":5,"style":5},{"type":8,"style":4},{"type":5,"style":12},{"type":6,"style":5},{"type":6,"style":12}]
+  },
+  {
+    "id": 21,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 22,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 23,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 24,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 25,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 26,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 27,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 28,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 29,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 30,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1450, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":6},{"type":5,"style":4},{"type":5,"style":5},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":5},{"type":8,"style":6}]
+  },
+  {
+    "id": 31,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 32,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 33,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 34,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 35,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 36,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 37,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 38,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 39,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 40,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 1700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":9},{"type":4,"style":12},{"type":5,"style":5},{"type":7,"style":12},{"type":8,"style":6},{"type":5,"style":12},{"type":6,"style":5},{"type":8,"style":3}]
+  },
+  {
+    "id": 41,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 42,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 43,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 44,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 45,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 46,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 47,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 48,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 49,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 50,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2200, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":7,"style":4},{"type":4,"style":10},{"type":5,"style":5},{"type":8,"style":1},{"type":5,"style":9},{"type":5,"style":12},{"type":6,"style":1},{"type":6,"style":7}]
+  },
+  {
+    "id": 51,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 52,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 53,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 54,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 55,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 56,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 57,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 58,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 59,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  },
+  {
+    "id": 60,
+    "tasks": [{"id":0,"type":4,"eventName":"payEquip", "budget" : 2700, "payCount":1}],
+    "rewards": [{"type":9,"id":0,"num":5}],
+    "buy_random": [{"type":4,"style":5},{"type":7,"style":5},{"type":4,"style":9},{"type":4,"style":11},{"type":5,"style":4},{"type":7,"style":9},{"type":5,"style":8},{"type":5,"style":9},{"type":6,"style":7},{"type":6,"style":8}]
+  }
+]

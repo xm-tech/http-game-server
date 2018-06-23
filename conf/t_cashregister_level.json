@@ -1,0 +1,674 @@
+[
+  {
+    "id": 100101,
+    "level": 1,
+    "decrsecond": 0,
+    "need_level": 2,
+    "gold": 10
+  },
+  {
+    "id": 100102,
+    "level": 2,
+    "decrsecond": 5,
+    "need_level": 6,
+    "gold": 20
+  },
+  {
+    "id": 100103,
+    "level": 3,
+    "decrsecond": 10,
+    "need_level": 10,
+    "gold": 50
+  },
+  {
+    "id": 100104,
+    "level": 4,
+    "decrsecond": 15,
+    "need_level": 14,
+    "gold": 600
+  },
+  {
+    "id": 100105,
+    "level": 5,
+    "decrsecond": 20,
+    "need_level": 18,
+    "gold": 4000
+  },
+  {
+    "id": 100106,
+    "level": 6,
+    "decrsecond": 25,
+    "need_level": 22,
+    "gold": 10000
+  },
+  {
+    "id": 100107,
+    "level": 7,
+    "decrsecond": 30,
+    "need_level": 26,
+    "gold": 20000
+  },
+  {
+    "id": 100108,
+    "level": 8,
+    "decrsecond": 35,
+    "need_level": 30,
+    "gold": 40000
+  },
+  {
+    "id": 100109,
+    "level": 9,
+    "decrsecond": 40,
+    "need_level": 34,
+    "gold": 60000
+  },
+  {
+    "id": 100110,
+    "level": 10,
+    "decrsecond": 45,
+    "need_level": 38,
+    "gold": 100000
+  },
+  {
+    "id": 100111,
+    "level": 11,
+    "decrsecond": 50,
+    "need_level": 42,
+    "gold": 150000
+  },
+  {
+    "id": 100112,
+    "level": 12,
+    "decrsecond": 55,
+    "need_level": 46,
+    "gold": 230000
+  },
+  {
+    "id": 100113,
+    "level": 13,
+    "decrsecond": 60,
+    "need_level": 50,
+    "gold": 330000
+  },
+  {
+    "id": 100114,
+    "level": 14,
+    "decrsecond": 65,
+    "need_level": 54,
+    "gold": 480000
+  },
+  {
+    "id": 100115,
+    "level": 15,
+    "decrsecond": 70,
+    "need_level": 58,
+    "gold": 700000
+  },
+  {
+    "id": 100116,
+    "level": 16,
+    "decrsecond": 75,
+    "need_level": 0,
+    "gold": 1000000
+  },
+  {
+    "id": 100201,
+    "level": 1,
+    "decrsecond": 25,
+    "need_level": 2,
+    "gold": 20
+  },
+  {
+    "id": 100202,
+    "level": 2,
+    "decrsecond": 30,
+    "need_level": 6,
+    "gold": 40
+  },
+  {
+    "id": 100203,
+    "level": 3,
+    "decrsecond": 35,
+    "need_level": 10,
+    "gold": 100
+  },
+  {
+    "id": 100204,
+    "level": 4,
+    "decrsecond": 40,
+    "need_level": 14,
+    "gold": 1200
+  },
+  {
+    "id": 100205,
+    "level": 5,
+    "decrsecond": 45,
+    "need_level": 18,
+    "gold": 8000
+  },
+  {
+    "id": 100206,
+    "level": 6,
+    "decrsecond": 50,
+    "need_level": 22,
+    "gold": 20000
+  },
+  {
+    "id": 100207,
+    "level": 7,
+    "decrsecond": 55,
+    "need_level": 26,
+    "gold": 40000
+  },
+  {
+    "id": 100208,
+    "level": 8,
+    "decrsecond": 60,
+    "need_level": 30,
+    "gold": 80000
+  },
+  {
+    "id": 100209,
+    "level": 9,
+    "decrsecond": 65,
+    "need_level": 34,
+    "gold": 120000
+  },
+  {
+    "id": 100210,
+    "level": 10,
+    "decrsecond": 70,
+    "need_level": 38,
+    "gold": 200000
+  },
+  {
+    "id": 100211,
+    "level": 11,
+    "decrsecond": 75,
+    "need_level": 42,
+    "gold": 300000
+  },
+  {
+    "id": 100212,
+    "level": 12,
+    "decrsecond": 80,
+    "need_level": 46,
+    "gold": 460000
+  },
+  {
+    "id": 100213,
+    "level": 13,
+    "decrsecond": 85,
+    "need_level": 50,
+    "gold": 660000
+  },
+  {
+    "id": 100214,
+    "level": 14,
+    "decrsecond": 90,
+    "need_level": 54,
+    "gold": 960000
+  },
+  {
+    "id": 100215,
+    "level": 15,
+    "decrsecond": 95,
+    "need_level": 58,
+    "gold": 1400000
+  },
+  {
+    "id": 100216,
+    "level": 16,
+    "decrsecond": 100,
+    "need_level": 0,
+    "gold": 2000000
+  },
+  {
+    "id": 100301,
+    "level": 1,
+    "decrsecond": 75,
+    "need_level": 2,
+    "gold": 60
+  },
+  {
+    "id": 100302,
+    "level": 2,
+    "decrsecond": 80,
+    "need_level": 6,
+    "gold": 120
+  },
+  {
+    "id": 100303,
+    "level": 3,
+    "decrsecond": 85,
+    "need_level": 10,
+    "gold": 300
+  },
+  {
+    "id": 100304,
+    "level": 4,
+    "decrsecond": 90,
+    "need_level": 14,
+    "gold": 3600
+  },
+  {
+    "id": 100305,
+    "level": 5,
+    "decrsecond": 95,
+    "need_level": 18,
+    "gold": 24000
+  },
+  {
+    "id": 100306,
+    "level": 6,
+    "decrsecond": 100,
+    "need_level": 22,
+    "gold": 60000
+  },
+  {
+    "id": 100307,
+    "level": 7,
+    "decrsecond": 105,
+    "need_level": 26,
+    "gold": 120000
+  },
+  {
+    "id": 100308,
+    "level": 8,
+    "decrsecond": 110,
+    "need_level": 30,
+    "gold": 240000
+  },
+  {
+    "id": 100309,
+    "level": 9,
+    "decrsecond": 115,
+    "need_level": 34,
+    "gold": 360000
+  },
+  {
+    "id": 100310,
+    "level": 10,
+    "decrsecond": 120,
+    "need_level": 38,
+    "gold": 600000
+  },
+  {
+    "id": 100311,
+    "level": 11,
+    "decrsecond": 125,
+    "need_level": 42,
+    "gold": 900000
+  },
+  {
+    "id": 100312,
+    "level": 12,
+    "decrsecond": 130,
+    "need_level": 46,
+    "gold": 1380000
+  },
+  {
+    "id": 100313,
+    "level": 13,
+    "decrsecond": 135,
+    "need_level": 50,
+    "gold": 1980000
+  },
+  {
+    "id": 100314,
+    "level": 14,
+    "decrsecond": 140,
+    "need_level": 54,
+    "gold": 2880000
+  },
+  {
+    "id": 100315,
+    "level": 15,
+    "decrsecond": 145,
+    "need_level": 58,
+    "gold": 4200000
+  },
+  {
+    "id": 100316,
+    "level": 16,
+    "decrsecond": 150,
+    "need_level": 0,
+    "gold": 6000000
+  },
+  {
+    "id": 100401,
+    "level": 1,
+    "decrsecond": 100,
+    "need_level": 2,
+    "gold": 80
+  },
+  {
+    "id": 100402,
+    "level": 2,
+    "decrsecond": 105,
+    "need_level": 6,
+    "gold": 160
+  },
+  {
+    "id": 100403,
+    "level": 3,
+    "decrsecond": 110,
+    "need_level": 10,
+    "gold": 400
+  },
+  {
+    "id": 100404,
+    "level": 4,
+    "decrsecond": 115,
+    "need_level": 14,
+    "gold": 4800
+  },
+  {
+    "id": 100405,
+    "level": 5,
+    "decrsecond": 120,
+    "need_level": 18,
+    "gold": 32000
+  },
+  {
+    "id": 100406,
+    "level": 6,
+    "decrsecond": 125,
+    "need_level": 22,
+    "gold": 80000
+  },
+  {
+    "id": 100407,
+    "level": 7,
+    "decrsecond": 130,
+    "need_level": 26,
+    "gold": 160000
+  },
+  {
+    "id": 100408,
+    "level": 8,
+    "decrsecond": 135,
+    "need_level": 30,
+    "gold": 320000
+  },
+  {
+    "id": 100409,
+    "level": 9,
+    "decrsecond": 140,
+    "need_level": 34,
+    "gold": 480000
+  },
+  {
+    "id": 100410,
+    "level": 10,
+    "decrsecond": 145,
+    "need_level": 38,
+    "gold": 800000
+  },
+  {
+    "id": 100411,
+    "level": 11,
+    "decrsecond": 150,
+    "need_level": 42,
+    "gold": 1200000
+  },
+  {
+    "id": 100412,
+    "level": 12,
+    "decrsecond": 155,
+    "need_level": 46,
+    "gold": 1840000
+  },
+  {
+    "id": 100413,
+    "level": 13,
+    "decrsecond": 160,
+    "need_level": 50,
+    "gold": 2640000
+  },
+  {
+    "id": 100414,
+    "level": 14,
+    "decrsecond": 165,
+    "need_level": 54,
+    "gold": 3840000
+  },
+  {
+    "id": 100415,
+    "level": 15,
+    "decrsecond": 170,
+    "need_level": 58,
+    "gold": 5600000
+  },
+  {
+    "id": 100416,
+    "level": 16,
+    "decrsecond": 175,
+    "need_level": 0,
+    "gold": 8000000
+  },
+  {
+    "id": 100501,
+    "level": 1,
+    "decrsecond": 50,
+    "need_level": 2,
+    "gold": 40
+  },
+  {
+    "id": 100502,
+    "level": 2,
+    "decrsecond": 55,
+    "need_level": 6,
+    "gold": 80
+  },
+  {
+    "id": 100503,
+    "level": 3,
+    "decrsecond": 60,
+    "need_level": 10,
+    "gold": 200
+  },
+  {
+    "id": 100504,
+    "level": 4,
+    "decrsecond": 65,
+    "need_level": 14,
+    "gold": 2400
+  },
+  {
+    "id": 100505,
+    "level": 5,
+    "decrsecond": 70,
+    "need_level": 18,
+    "gold": 16000
+  },
+  {
+    "id": 100506,
+    "level": 6,
+    "decrsecond": 75,
+    "need_level": 22,
+    "gold": 40000
+  },
+  {
+    "id": 100507,
+    "level": 7,
+    "decrsecond": 80,
+    "need_level": 26,
+    "gold": 80000
+  },
+  {
+    "id": 100508,
+    "level": 8,
+    "decrsecond": 85,
+    "need_level": 30,
+    "gold": 160000
+  },
+  {
+    "id": 100509,
+    "level": 9,
+    "decrsecond": 90,
+    "need_level": 34,
+    "gold": 240000
+  },
+  {
+    "id": 100510,
+    "level": 10,
+    "decrsecond": 95,
+    "need_level": 38,
+    "gold": 400000
+  },
+  {
+    "id": 100511,
+    "level": 11,
+    "decrsecond": 100,
+    "need_level": 42,
+    "gold": 600000
+  },
+  {
+    "id": 100512,
+    "level": 12,
+    "decrsecond": 105,
+    "need_level": 46,
+    "gold": 920000
+  },
+  {
+    "id": 100513,
+    "level": 13,
+    "decrsecond": 110,
+    "need_level": 50,
+    "gold": 1320000
+  },
+  {
+    "id": 100514,
+    "level": 14,
+    "decrsecond": 115,
+    "need_level": 54,
+    "gold": 1920000
+  },
+  {
+    "id": 100515,
+    "level": 15,
+    "decrsecond": 120,
+    "need_level": 58,
+    "gold": 2800000
+  },
+  {
+    "id": 100516,
+    "level": 16,
+    "decrsecond": 125,
+    "need_level": 0,
+    "gold": 4000000
+  },
+  {
+    "id": 100601,
+    "level": 1,
+    "decrsecond": 125,
+    "need_level": 2,
+    "gold": 100
+  },
+  {
+    "id": 100602,
+    "level": 2,
+    "decrsecond": 130,
+    "need_level": 6,
+    "gold": 200
+  },
+  {
+    "id": 100603,
+    "level": 3,
+    "decrsecond": 135,
+    "need_level": 10,
+    "gold": 500
+  },
+  {
+    "id": 100604,
+    "level": 4,
+    "decrsecond": 140,
+    "need_level": 14,
+    "gold": 6000
+  },
+  {
+    "id": 100605,
+    "level": 5,
+    "decrsecond": 145,
+    "need_level": 18,
+    "gold": 40000
+  },
+  {
+    "id": 100606,
+    "level": 6,
+    "decrsecond": 150,
+    "need_level": 22,
+    "gold": 100000
+  },
+  {
+    "id": 100607,
+    "level": 7,
+    "decrsecond": 155,
+    "need_level": 26,
+    "gold": 200000
+  },
+  {
+    "id": 100608,
+    "level": 8,
+    "decrsecond": 160,
+    "need_level": 30,
+    "gold": 400000
+  },
+  {
+    "id": 100609,
+    "level": 9,
+    "decrsecond": 165,
+    "need_level": 34,
+    "gold": 600000
+  },
+  {
+    "id": 100610,
+    "level": 10,
+    "decrsecond": 170,
+    "need_level": 38,
+    "gold": 1000000
+  },
+  {
+    "id": 100611,
+    "level": 11,
+    "decrsecond": 175,
+    "need_level": 42,
+    "gold": 1500000
+  },
+  {
+    "id": 100612,
+    "level": 12,
+    "decrsecond": 180,
+    "need_level": 46,
+    "gold": 2300000
+  },
+  {
+    "id": 100613,
+    "level": 13,
+    "decrsecond": 185,
+    "need_level": 50,
+    "gold": 3300000
+  },
+  {
+    "id": 100614,
+    "level": 14,
+    "decrsecond": 190,
+    "need_level": 54,
+    "gold": 4800000
+  },
+  {
+    "id": 100615,
+    "level": 15,
+    "decrsecond": 195,
+    "need_level": 58,
+    "gold": 7000000
+  },
+  {
+    "id": 100616,
+    "level": 16,
+    "decrsecond": 200,
+    "need_level": 0,
+    "gold": 10000000
+  }
+]

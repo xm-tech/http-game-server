@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 2,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 3,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 4,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 5,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 6,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 7,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 8,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 9,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":8200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 10,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":9000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 11,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":10100,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 12,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":11100,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 13,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":12300,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 14,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":13300,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 15,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":14200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 16,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":15600,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 17,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":16500,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 18,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":18000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 19,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":19000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 20,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":20000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 21,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":22000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 22,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":23100,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 23,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":24700,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 24,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":25800,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 25,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":28700,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 26,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":29900,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 27,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":31000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 28,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":32900,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 29,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":34800,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 30,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":36000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 31,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":39500,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 32,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":41600,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 33,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":42900,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 34,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":44200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 35,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":45500,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 36,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":47700,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 37,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":49900,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 38,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":51300,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 39,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":54600,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 40,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":57000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 41,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":61500,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 42,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":64000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 43,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":65500,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 44,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":69300,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 45,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":72000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 46,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":79300,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 47,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":82200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 48,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":87600,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 49,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":89400,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 50,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":93700,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 51,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":102000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 52,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":107900,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 53,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":112600,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 54,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":117400,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 55,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":123700,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 56,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":147000,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 57,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":149600,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 58,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":152200,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 59,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":154800,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  },
+  {
+    "id": 60,
+    "beginStoryId": 99,
+    "tasks": [{"id":0,"npcId":4,"type":1,"count":154800,"eventName":"sale"}],
+    "rewards": [{"type":5,"id":0,"num":5}]
+  }
+]

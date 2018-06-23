@@ -1,0 +1,422 @@
+[
+  {
+    "level": 1,
+    "exp": 500,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 2,
+    "exp": 600,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 3,
+    "exp": 700,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 4,
+    "exp": 800,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 5,
+    "exp": 900,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 6,
+    "exp": 1300,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 7,
+    "exp": 1600,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 8,
+    "exp": 2400,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 9,
+    "exp": 3200,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 10,
+    "exp": 7200,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 11,
+    "exp": 12200,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 12,
+    "exp": 17600,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 13,
+    "exp": 24000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 14,
+    "exp": 30000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 15,
+    "exp": 38000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 16,
+    "exp": 48000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 17,
+    "exp": 58000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 18,
+    "exp": 72000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 19,
+    "exp": 82000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 20,
+    "exp": 96000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 21,
+    "exp": 118000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 22,
+    "exp": 138000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 23,
+    "exp": 162000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 24,
+    "exp": 184000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 25,
+    "exp": 220000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 26,
+    "exp": 240000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 27,
+    "exp": 260000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 28,
+    "exp": 300000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 29,
+    "exp": 340000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 30,
+    "exp": 380000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 31,
+    "exp": 440000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 32,
+    "exp": 500000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 33,
+    "exp": 560000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 34,
+    "exp": 600000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 35,
+    "exp": 660000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 36,
+    "exp": 740000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 37,
+    "exp": 800000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 38,
+    "exp": 880000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 39,
+    "exp": 980000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 40,
+    "exp": 1060000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 41,
+    "exp": 1200000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 42,
+    "exp": 1320000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 43,
+    "exp": 1420000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 44,
+    "exp": 1580000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 45,
+    "exp": 1700000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 46,
+    "exp": 1960000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 47,
+    "exp": 2000000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 48,
+    "exp": 2200000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 49,
+    "exp": 2400000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 50,
+    "exp": 2600000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 51,
+    "exp": 3000000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 52,
+    "exp": 3200000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 53,
+    "exp": 3600000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 54,
+    "exp": 3800000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 55,
+    "exp": 4200000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 56,
+    "exp": 5200000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 57,
+    "exp": 5400000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 58,
+    "exp": 5800000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 59,
+    "exp": 6000000,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  },
+  {
+    "level": 60,
+    "exp": 0,
+    "awards": [],
+    "talk": 0,
+    "funcs": []
+  }
+]

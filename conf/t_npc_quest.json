@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "beginStoryId": 44,
+    "successStoryId": 45,
+    "failedStoryId": 46,
+    "tasks": [{"id":0,"npcId":3002,"type":6,"style":10,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":8,"id":0,"num":5},{"type":12,"id":3002,"num":5}]
+  },
+  {
+    "id": 1,
+    "beginStoryId": 47,
+    "successStoryId": 48,
+    "failedStoryId": 49,
+    "tasks": [{"id":0,"npcId":3002,"type":6,"style":8,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":9,"id":0,"num":10},{"type":12,"id":3002,"num":5}]
+  },
+  {
+    "id": 2,
+    "beginStoryId": 50,
+    "successStoryId": 51,
+    "failedStoryId": 52,
+    "tasks": [{"id":0,"npcId":3002,"type":6,"style":9,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":10,"id":0,"num":10},{"type":12,"id":3002,"num":5}]
+  },
+  {
+    "id": 3,
+    "beginStoryId": 53,
+    "successStoryId": 54,
+    "failedStoryId": 55,
+    "tasks": [{"id":0,"npcId":3002,"type":6,"style":7,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":9,"id":0,"num":10},{"type":12,"id":3002,"num":5}]
+  },
+  {
+    "id": 4,
+    "beginStoryId": 56,
+    "successStoryId": 57,
+    "failedStoryId": 58,
+    "tasks": [{"id":0,"npcId":3001,"type":6,"style":11,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":8,"id":0,"num":5},{"type":12,"id":3001,"num":5}]
+  },
+  {
+    "id": 5,
+    "beginStoryId": 59,
+    "successStoryId": 60,
+    "failedStoryId": 61,
+    "tasks": [{"id":0,"npcId":3001,"type":6,"style":3,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":9,"id":0,"num":10},{"type":12,"id":3001,"num":5}]
+  },
+  {
+    "id": 6,
+    "beginStoryId": 62,
+    "successStoryId": 63,
+    "failedStoryId": 64,
+    "tasks": [{"id":0,"npcId":3001,"type":6,"style":4,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":10,"id":0,"num":10},{"type":12,"id":3001,"num":5}]
+  },
+  {
+    "id": 7,
+    "beginStoryId": 65,
+    "successStoryId": 66,
+    "failedStoryId": 67,
+    "tasks": [{"id":0,"npcId":3001,"type":6,"style":1,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":10,"id":0,"num":10},{"type":12,"id":3001,"num":5}]
+  },
+  {
+    "id": 8,
+    "beginStoryId": 68,
+    "successStoryId": 69,
+    "failedStoryId": 70,
+    "tasks": [{"id":0,"npcId":3003,"type":6,"style":5,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":8,"id":0,"num":5},{"type":12,"id":3003,"num":5}]
+  },
+  {
+    "id": 9,
+    "beginStoryId": 71,
+    "successStoryId": 72,
+    "failedStoryId": 73,
+    "tasks": [{"id":0,"npcId":3003,"type":6,"style":12,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":9,"id":0,"num":10},{"type":12,"id":3003,"num":5}]
+  },
+  {
+    "id": 10,
+    "beginStoryId": 74,
+    "successStoryId": 75,
+    "failedStoryId": 76,
+    "tasks": [{"id":0,"npcId":3003,"type":6,"style":6,"equipCount":5,"eventName":"dressUp"}],
+    "rewards": [{"type":10,"id":0,"num":10},{"type":12,"id":3003,"num":5}]
+  }
+]

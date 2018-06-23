@@ -1,0 +1,108 @@
+package com.ppgames.core;
+
+import com.ppgames.demo.handler.*;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class GameActs {
+    // <cmd,GameAct>
+    static Map<Integer, GameAct> all;
+
+    static void init() {
+        all = new HashMap<>();
+        all.put(1, new Login());
+        all.put(3, new SaveDecros());
+        all.put(5, new GetShelfs());
+        all.put(7, new AddGoods());
+        all.put(9, new BatchAddGoods());
+        all.put(11, new ExpandShelf());
+        all.put(13, new UnlockShelfPos());
+        all.put(15, new HeartBeat());
+        all.put(27, new Sell());
+        all.put(19, new BuyEquip());
+        all.put(29, new ExpandEquipsCapacity());
+        all.put(21, new GetLogistics());
+        all.put(23, new AddLogistics());
+        all.put(25, new UnloadLogistics());
+        all.put(31, new UpgradeLogistics());
+        all.put(33, new AccelerateLogistics());
+        all.put(35, new RemoveGoods());
+        all.put(37, new CreateRole());
+        all.put(39, new FaceCombine());
+        all.put(41, new FaceLevelUp());
+        all.put(43, new FaceChange());
+        all.put(45, new ChangePlayerEquips());
+        all.put(47, new UpgradeDressRoom());
+        all.put(49, new UnlockWindow());
+        all.put(51, new ChangeWindowEquips());
+        all.put(53, new GardenLowBuy());
+        all.put(55, new GardenHighBuy());
+        all.put(57, new GardenHighBuy10());
+        all.put(59, new GardenExchange());
+        all.put(61, new GetGarden());
+        all.put(63, new SowSeed());
+        all.put(65, new OverSeed());
+        all.put(67, new UnlockFactoryEquip());
+        all.put(69, new GetFactorys());
+        all.put(71, new AddFactory());
+        all.put(73, new UpgradeFactory());
+        all.put(75, new AccelerateFactory());
+        all.put(77, new UnloadFactory());
+        all.put(79, new FactoryMake());
+        all.put(81, new CashRegisterLevelUp());
+        all.put(83, new Employ());
+        all.put(85, new OverEmploy());
+        all.put(87, new ShopBuy());
+        all.put(89, new Rename());
+        all.put(91, new ChangePlayerHead());
+        all.put(93, new CheckIn());
+        all.put(95, new OpenCheckInChest());
+        all.put(97, new ExpandShop());
+        all.put(99, new MailList());
+        all.put(101, new MailUpdate());
+        all.put(103, new MailAttach());
+        all.put(105, new MailDelAll());
+        all.put(107, new MailAttachAll());
+        all.put(109, new RequestAddFriend());
+        all.put(111, new AgreeAddFriend());
+        all.put(113, new RefuseAddFriend());
+        all.put(115, new GetFriends());
+        all.put(117, new GetFriendRequests());
+        all.put(119, new GiveFriendFlower());
+        all.put(121, new DeleteFriend());
+        all.put(123, new GetCheckInStates());
+        all.put(125, new RecommendFriends());
+        all.put(127, new SearchFriend());
+        all.put(129, new VisitFriendRoom());
+        all.put(131, new PvpRefreshEnemys());
+        all.put(135, new PvpBattle());
+        all.put(137, new PvpBuyBattleNum());
+        all.put(139, new CrystalBuy());
+        all.put(141, new GetRanks());
+        all.put(151, new GetMainLineQuest());
+        all.put(153, new GetActiveValueQuest());
+        all.put(155, new TakeActiveValueReward());
+        all.put(157, new ActiveValueRaffle());
+        all.put(159, new TakeMainLineReward());
+        all.put(161, new GetCustomerQuests());
+        all.put(163, new TakeCustomerQuestRewards());
+        all.put(165, new GetNpcQuest());
+        all.put(167, new TakeNpcQuestRewards());
+        all.put(169, new SendChatMsg());
+        all.put(171, new ClearnRubbishs());
+        all.put(173, new StampExchange());
+        all.put(175, new GetSaleQuest());
+        all.put(177, new BeginSaleQuest());
+        all.put(179, new TakeSaleQuestRewards());
+        all.put(181, new BindingWXSuccess());
+        all.put(183, new BuyFund());
+        all.put(185, new GetActivityGroup());
+        all.put(187, new GetActivityQuest());
+        all.put(189, new GetActivityQuestReward());
+        all.put(191, new AccelerateFlower());
+        all.put(193, new GetFlowerRecode());
+        all.put(195, new GetPlayerInfo());
+        System.err.println("GameActs init succ");
+    }
+}
