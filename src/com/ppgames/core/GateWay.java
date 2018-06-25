@@ -2,6 +2,8 @@ package com.ppgames.core;
 
 import com.alibaba.fastjson.JSONObject;
 import com.ppgames.demo.DataManager;
+import com.ppgames.demo.handler.GameActs;
+import com.ppgames.demo.handler.MsgIds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -65,7 +67,7 @@ public class GateWay extends HttpServlet {
         if (GameContextListener.gameStatus == GameStatus.MAINTAIN) {
             gameResp.send(ErrCode.SYS_MAINTINING);
         } else {
-            GameAct gameAct = GameActs.all.get(1);
+            GameAct gameAct = GameActs.get(MsgIds.Login.getVal());
             gameAct.exec(gameReq, gameResp);
         }
 
@@ -83,7 +85,7 @@ public class GateWay extends HttpServlet {
         if (GameContextListener.gameStatus == GameStatus.MAINTAIN) {
             gameResp.send(ErrCode.SYS_MAINTINING);
         } else {
-            GameAct gameAct = GameActs.all.get(msgid);
+            GameAct gameAct = GameActs.get(msgid);
             gameAct.exec(gameReq, gameResp);
         }
     }

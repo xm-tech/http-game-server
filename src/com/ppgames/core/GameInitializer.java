@@ -4,6 +4,7 @@ import com.ppgames.core.thread.AsynService;
 import com.ppgames.demo.DataManager;
 import com.ppgames.demo.TimeManager;
 import com.ppgames.demo.dao.AllDao;
+import com.ppgames.demo.handler.GameActs;
 import com.ppgames.demo.rank.RankManager;
 import com.ppgames.demo.task.DbSaveTask;
 import com.ppgames.demo.task.LogTask;
