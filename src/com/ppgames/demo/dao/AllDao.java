@@ -1,5 +1,6 @@
 package com.ppgames.demo.dao;
 
+// TODO 单例优化
 public class AllDao {
 
     public static PlayerDao pd;

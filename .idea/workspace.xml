@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27330a83-9803-4c60-a43a-54025ad5d54d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ppgames/core/GameActs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ppgames/core/GateWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/core/GateWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AsyncGameReq.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/async/AsyncGameReq.java">
+      <file leaf-file-name="GameReq.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="197">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameInitializer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,18 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameActs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameActs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
                 <element signature="e#5052#5053#0" expanded="true" />
                 <element signature="e#5091#5092#0" expanded="true" />
-                <element signature="e#4560#4561#0" expanded="true" />
-                <element signature="e#4622#4623#0" expanded="true" />
+                <element signature="e#7019#7020#0" expanded="true" />
+                <element signature="e#7081#7082#0" expanded="true" />
+                <element signature="e#7134#7135#0" expanded="true" />
+                <element signature="e#7159#7160#0" expanded="true" />
+                <element signature="e#7431#7432#0" expanded="true" />
+                <element signature="e#7461#7462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +81,8 @@
       <file leaf-file-name="MsgIds.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#88#89#0" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
@@ -87,6 +100,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -125,6 +147,8 @@
       <find>mmxd</find>
       <find>all.put(</find>
       <find>27</find>
+      <find>MailList</find>
+      <find>del</find>
     </findStrings>
     <replaceStrings>
       <replace>register(</replace>
@@ -162,16 +186,17 @@
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/activity/ActivityManager.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/activity/ActivityBase.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/activity/ActivityExchange.java" />
-        <option value="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/dao/ActivityDao.java" />
-        <option value="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/core/db/AbstractDataSource.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/core/GameActs.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/core/MsgIds.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/core/AbsGameActs.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/core/GateWay.java" />
-        <option value="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" />
+        <option value="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" />
+        <option value="$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java" />
+        <option value="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" />
+        <option value="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" />
       </list>
     </option>
   </component>
@@ -238,6 +263,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ppgames" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http-game-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http-game-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ppgames" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="http-game-server" type="b2602c69:ProjectViewProjectNode" />
@@ -345,12 +378,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529711649166</updated>
       <workItem from="1529711650762" duration="5056000" />
-      <workItem from="1529716933401" duration="15609000" />
+      <workItem from="1529716933401" duration="18611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20665000" />
+    <option name="totallyTimeSpent" value="23667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
@@ -369,6 +402,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3275862" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -382,7 +416,6 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3275862" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -396,26 +429,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/model/quest/QuestList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/task/LogTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -563,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/dao/PlayerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -703,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameAct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -751,10 +747,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/PvpBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#88#89#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
@@ -768,15 +785,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
           <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
             <element signature="e#5052#5053#0" expanded="true" />
             <element signature="e#5091#5092#0" expanded="true" />
-            <element signature="e#4560#4561#0" expanded="true" />
-            <element signature="e#4622#4623#0" expanded="true" />
+            <element signature="e#7019#7020#0" expanded="true" />
+            <element signature="e#7081#7082#0" expanded="true" />
+            <element signature="e#7134#7135#0" expanded="true" />
+            <element signature="e#7159#7160#0" expanded="true" />
+            <element signature="e#7431#7432#0" expanded="true" />
+            <element signature="e#7461#7462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

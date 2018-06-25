@@ -11,10 +11,9 @@ public class GameActs {
     private Map<Integer, GameAct> all = new ConcurrentHashMap<>();
 
     private GameActs() {
-        init();
     }
 
-    private void init() {
+    private synchronized void register() {
         all.clear();
         register(MsgIds.Login.getVal(), new Login());
         register(MsgIds.SaveDecros.getVal(), new SaveDecros());
@@ -52,62 +51,62 @@ public class GameActs {
         register(MsgIds.GetFactorys.getVal(), new GetFactorys());
         register(MsgIds.AddFactory.getVal(), new AddFactory());
         register(MsgIds.UpgradeFactory.getVal(), new UpgradeFactory());
-        register(75, new AccelerateFactory());
-        register(77, new UnloadFactory());
-        register(79, new FactoryMake());
-        register(81, new CashRegisterLevelUp());
-        register(83, new Employ());
-        register(85, new OverEmploy());
-        register(87, new ShopBuy());
-        register(89, new Rename());
-        register(91, new ChangePlayerHead());
-        register(93, new CheckIn());
-        register(95, new OpenCheckInChest());
-        register(97, new ExpandShop());
-        register(99, new MailList());
-        register(101, new MailUpdate());
-        register(103, new MailAttach());
-        register(105, new MailDelAll());
-        register(107, new MailAttachAll());
-        register(109, new RequestAddFriend());
-        register(111, new AgreeAddFriend());
-        register(113, new RefuseAddFriend());
-        register(115, new GetFriends());
-        register(117, new GetFriendRequests());
-        register(119, new GiveFriendFlower());
-        register(121, new DeleteFriend());
-        register(123, new GetCheckInStates());
-        register(125, new RecommendFriends());
-        register(127, new SearchFriend());
-        register(129, new VisitFriendRoom());
-        register(131, new PvpRefreshEnemys());
-        register(135, new PvpBattle());
-        register(137, new PvpBuyBattleNum());
-        register(139, new CrystalBuy());
-        register(141, new GetRanks());
-        register(151, new GetMainLineQuest());
-        register(153, new GetActiveValueQuest());
-        register(155, new TakeActiveValueReward());
-        register(157, new ActiveValueRaffle());
-        register(159, new TakeMainLineReward());
-        register(161, new GetCustomerQuests());
-        register(163, new TakeCustomerQuestRewards());
-        register(165, new GetNpcQuest());
-        register(167, new TakeNpcQuestRewards());
-        register(169, new SendChatMsg());
-        register(171, new ClearnRubbishs());
-        register(173, new StampExchange());
-        register(175, new GetSaleQuest());
-        register(177, new BeginSaleQuest());
-        register(179, new TakeSaleQuestRewards());
-        register(181, new BindingWXSuccess());
-        register(183, new BuyFund());
-        register(185, new GetActivityGroup());
-        register(187, new GetActivityQuest());
-        register(189, new GetActivityQuestReward());
-        register(191, new AccelerateFlower());
-        register(193, new GetFlowerRecode());
-        register(195, new GetPlayerInfo());
+        register(MsgIds.AccelerateFactory.getVal(), new AccelerateFactory());
+        register(MsgIds.UnloadFactory.getVal(), new UnloadFactory());
+        register(MsgIds.FactoryMake.getVal(), new FactoryMake());
+        register(MsgIds.CashRegisterLevelUp.getVal(), new CashRegisterLevelUp());
+        register(MsgIds.Employ.getVal(), new Employ());
+        register(MsgIds.OverEmploy.getVal(), new OverEmploy());
+        register(MsgIds.ShopBuy.getVal(), new ShopBuy());
+        register(MsgIds.Rename.getVal(), new Rename());
+        register(MsgIds.ChangePlayerHead.getVal(), new ChangePlayerHead());
+        register(MsgIds.CheckIn.getVal(), new CheckIn());
+        register(MsgIds.OpenCheckInChest.getVal(), new OpenCheckInChest());
+        register(MsgIds.ExpandShop.getVal(), new ExpandShop());
+        register(MsgIds.MailList.getVal(), new MailList());
+        register(MsgIds.MailUpdate.getVal(), new MailUpdate());
+        register(MsgIds.MailAttach.getVal(), new MailAttach());
+        register(MsgIds.MailDelAll.getVal(), new MailDelAll());
+        register(MsgIds.MailAttachAll.getVal(), new MailAttachAll());
+        register(MsgIds.RequestAddFriend.getVal(), new RequestAddFriend());
+        register(MsgIds.AgreeAddFriend.getVal(), new AgreeAddFriend());
+        register(MsgIds.RefuseAddFriend.getVal(), new RefuseAddFriend());
+        register(MsgIds.GetFriends.getVal(), new GetFriends());
+        register(MsgIds.GetFriendRequests.getVal(), new GetFriendRequests());
+        register(MsgIds.GiveFriendFlower.getVal(), new GiveFriendFlower());
+        register(MsgIds.DeleteFriend.getVal(), new DeleteFriend());
+        register(MsgIds.GetCheckInStates.getVal(), new GetCheckInStates());
+        register(MsgIds.RecommendFriends.getVal(), new RecommendFriends());
+        register(MsgIds.SearchFriend.getVal(), new SearchFriend());
+        register(MsgIds.VisitFriendRoom.getVal(), new VisitFriendRoom());
+        register(MsgIds.PvpRefreshEnemys.getVal(), new PvpRefreshEnemys());
+        register(MsgIds.PvpBattle.getVal(), new PvpBattle());
+        register(MsgIds.PvpBuyBattleNum.getVal(), new PvpBuyBattleNum());
+        register(MsgIds.CrystalBuy.getVal(), new CrystalBuy());
+        register(MsgIds.GetRanks.getVal(), new GetRanks());
+        register(MsgIds.GetMainLineQuest.getVal(), new GetMainLineQuest());
+        register(MsgIds.GetActiveValueQuest.getVal(), new GetActiveValueQuest());
+        register(MsgIds.TakeActiveValueReward.getVal(), new TakeActiveValueReward());
+        register(MsgIds.ActiveValueRaffle.getVal(), new ActiveValueRaffle());
+        register(MsgIds.TakeMainLineReward.getVal(), new TakeMainLineReward());
+        register(MsgIds.GetCustomerQuests.getVal(), new GetCustomerQuests());
+        register(MsgIds.TakeCustomerQuestRewards.getVal(), new TakeCustomerQuestRewards());
+        register(MsgIds.GetNpcQuest.getVal(), new GetNpcQuest());
+        register(MsgIds.TakeNpcQuestRewards.getVal(), new TakeNpcQuestRewards());
+        register(MsgIds.SendChatMsg.getVal(), new SendChatMsg());
+        register(MsgIds.ClearnRubbishs.getVal(), new ClearnRubbishs());
+        register(MsgIds.StampExchange.getVal(), new StampExchange());
+        register(MsgIds.GetSaleQuest.getVal(), new GetSaleQuest());
+        register(MsgIds.BeginSaleQuest.getVal(), new BeginSaleQuest());
+        register(MsgIds.TakeSaleQuestRewards.getVal(), new TakeSaleQuestRewards());
+        register(MsgIds.BindingWXSuccess.getVal(), new BindingWXSuccess());
+        register(MsgIds.BuyFund.getVal(), new BuyFund());
+        register(MsgIds.GetActivityGroup.getVal(), new GetActivityGroup());
+        register(MsgIds.GetActivityQuest.getVal(), new GetActivityQuest());
+        register(MsgIds.GetActivityQuestReward.getVal(), new GetActivityQuestReward());
+        register(MsgIds.AccelerateFlower.getVal(), new AccelerateFlower());
+        register(MsgIds.GetFlowerRecode.getVal(), new GetFlowerRecode());
+        register(MsgIds.GetPlayerInfo.getVal(), new GetPlayerInfo());
         System.err.println("GameActs init succ");
     }
 
@@ -115,11 +114,21 @@ public class GameActs {
         all.put(msgid, gameAct);
     }
 
-    public static GameAct get(final int msgid){
+    public static GameAct get(final int msgid) {
         return SingletonHolder.instance.all.get(msgid);
     }
 
-    static class SingletonHolder {
+    public static boolean contains(final int msgid) {
+        return SingletonHolder.instance.all.containsKey(msgid);
+    }
+
+
+    private static class SingletonHolder {
         private static GameActs instance = new GameActs();
+    }
+
+
+    public static void init() {
+        SingletonHolder.instance.register();
     }
 }

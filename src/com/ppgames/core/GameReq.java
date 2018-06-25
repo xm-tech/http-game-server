@@ -28,7 +28,7 @@ public class GameReq {
             return false;
         }
         int msgid = data.getIntValue("msgid");
-        return GameActs.all.containsKey(msgid);
+        return GameActs.contains(msgid);
     }
 
     private String getIp() {
