@@ -40,7 +40,7 @@ public class GateWay extends HttpServlet {
                     activePost(gameReq, gameResp);
                 }
                 long endTime = System.currentTimeMillis();
-                log.debug(gameReq + "," + (endTime - beginTime) + " ms");
+                log.debug("exec time[" + (endTime - beginTime) + " ms]");
                 log.debug(gameResp.toString());
 
             } else {
