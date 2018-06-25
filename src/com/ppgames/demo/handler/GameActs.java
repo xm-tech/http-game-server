@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class GameActs {
 
-    // <cmd,GameAct>
+    // <msgid,GameAct>
     private Map<Integer, GameAct> all = new ConcurrentHashMap<>();
 
     private GameActs() {

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27330a83-9803-4c60-a43a-54025ad5d54d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameInitializer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameActs.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameActs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="90">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#5052#5053#0" expanded="true" />
                 <element signature="e#5091#5092#0" expanded="true" />
@@ -195,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/com/ppgames/core/GameReq.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/dao/AllDao.java" />
-        <option value="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" />
         <option value="$PROJECT_DIR$/src/com/ppgames/demo/handler/MsgIds.java" />
+        <option value="$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java" />
       </list>
     </option>
   </component>
@@ -378,12 +374,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529711649166</updated>
       <workItem from="1529711650762" duration="5056000" />
-      <workItem from="1529716933401" duration="18611000" />
+      <workItem from="1529716933401" duration="18955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23667000" />
+    <option name="totallyTimeSpent" value="24011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
@@ -783,10 +779,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ppgames/demo/handler/GameActs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#5052#5053#0" expanded="true" />
             <element signature="e#5091#5092#0" expanded="true" />
@@ -796,16 +802,6 @@
             <element signature="e#7159#7160#0" expanded="true" />
             <element signature="e#7431#7432#0" expanded="true" />
             <element signature="e#7461#7462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ppgames/core/GameInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
