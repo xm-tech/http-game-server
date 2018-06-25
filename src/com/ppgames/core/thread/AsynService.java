@@ -31,8 +31,7 @@ public final class AsynService {
             pvpRankRefreshExecutor.execute(task);
         } else if (task instanceof LogTask) {
             logExecutor.execute(task);
-        }
-        else if (task instanceof RankManager) {
+        } else if (task instanceof RankManager) {
             RankManagerExecutor.execute(task);
         }
     }

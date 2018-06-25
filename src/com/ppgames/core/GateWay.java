@@ -33,12 +33,11 @@ public class GateWay extends HttpServlet {
             if (gameReq.isOk()) {
                 int msgid = gameReq.data.getIntValue("msgid");
                 GameResp gameResp = new GameResp(msgid, resp);
-                if (msgid == 1){
+                if (msgid == MsgIds.Login.getVal()) {
                     //login
-                    loginPost(gameReq,gameResp);
-                }
-                else{
-                    activePost(gameReq,gameResp);
+                    loginPost(gameReq, gameResp);
+                } else {
+                    activePost(gameReq, gameResp);
                 }
                 long endTime = System.currentTimeMillis();
                 log.debug(gameReq + "," + (endTime - beginTime) + " ms");
@@ -63,7 +62,8 @@ public class GateWay extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         resp.getWriter().println(data);
     }
-    private void loginPost(GameReq gameReq,GameResp gameResp){
+
+    private void loginPost(GameReq gameReq, GameResp gameResp) {
         if (GameContextListener.gameStatus == GameStatus.MAINTAIN) {
             gameResp.send(ErrCode.SYS_MAINTINING);
         } else {
@@ -72,7 +72,8 @@ public class GateWay extends HttpServlet {
         }
 
     }
-    private void activePost(GameReq gameReq,GameResp gameResp){
+
+    private void activePost(GameReq gameReq, GameResp gameResp) {
         int msgid = gameReq.data.getIntValue("msgid");
         long token = gameReq.data.getLongValue("token");
         long pid = gameReq.data.getLongValue("pid");
