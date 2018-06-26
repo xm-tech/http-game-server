@@ -2,9 +2,6 @@ package com.xxgames.demo.model;
 
 import com.alibaba.fastjson.JSONObject;
 
-/**
- * Created by PhonePadPC on 2017/8/7.
- */
 public class SettleResult {
     private long totalGold;
     private int totalExp;

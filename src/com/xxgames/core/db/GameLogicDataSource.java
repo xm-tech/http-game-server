@@ -1,7 +1,7 @@
 package com.xxgames.core.db;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import org.slf4j.LoggerFactory;
+import com.xxgames.core.Loggers;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -17,19 +17,18 @@ public final class GameLogicDataSource extends AbstractDataSource {
 
     @Override
     public void init() throws NamingException {
-        log = LoggerFactory.getLogger(GameLogicDataSource.class);
         Context ct = new InitialContext();
         dataSource = (DataSource) ct.lookup("java:comp/env/jdbc/druid");
-        log.info(getName() + " init succ");
+        Loggers.gameLogicDataSource.info(getName() + " init succ");
     }
 
     @Override
     public void close() {
         DruidDataSource gs = (DruidDataSource) dataSource;
-        log.info("try to close GameLogicDataSource: " + gs);
+        Loggers.gameLogicDataSource.info("try to close GameLogicDataSource: " + gs);
         gs.close();
         dataSource = null;
-        log.info(getName() + " closed");
+        Loggers.gameLogicDataSource.info(getName() + " closed");
     }
 
     @Override

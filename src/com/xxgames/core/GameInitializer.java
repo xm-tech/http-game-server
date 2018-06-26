@@ -9,12 +9,9 @@ import com.xxgames.demo.rank.RankManager;
 import com.xxgames.demo.task.DbSaveTask;
 import com.xxgames.demo.task.LogTask;
 import com.xxgames.demo.task.PvpRankRefreshTask;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 final class GameInitializer {
-    private static Logger log = LoggerFactory.getLogger(GameInitializer.class);
 
     private GameInitializer() {
     }
@@ -31,10 +28,10 @@ final class GameInitializer {
 
             TimeManager.getInstance().init();
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+            Loggers.gameInitializer.error(e.getMessage(), e);
             System.exit(1);
         }
-        log.debug("game init over ... ");
+        Loggers.gameInitializer.debug("game init over ... ");
     }
 
 

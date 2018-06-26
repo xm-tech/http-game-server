@@ -1,7 +1,5 @@
 package com.xxgames.core.db;
 
-import org.slf4j.Logger;
-
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.sql.CallableStatement;
@@ -18,7 +16,6 @@ import java.util.List;
 import java.util.Map;
 
 public abstract class AbstractDataSource {
-    protected Logger log;
 
     protected DataSource dataSource;
 

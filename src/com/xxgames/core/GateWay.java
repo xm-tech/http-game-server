@@ -4,8 +4,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.xxgames.demo.DataManager;
 import com.xxgames.demo.handler.GameActs;
 import com.xxgames.demo.handler.MsgIds;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -15,8 +13,6 @@ import java.io.IOException;
 
 @SuppressWarnings("serial")
 public class GateWay extends HttpServlet {
-
-    private static Logger log = LoggerFactory.getLogger(GateWay.class);
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -29,7 +25,7 @@ public class GateWay extends HttpServlet {
             long beginTime = System.currentTimeMillis();
             GameReq gameReq = new GameReq(req);
 
-            log.debug(gameReq.toString());
+            Loggers.gateWay.debug(gameReq.toString());
             if (gameReq.isOk()) {
                 int msgid = gameReq.data.getIntValue("msgid");
                 GameResp gameResp = new GameResp(msgid, resp);
@@ -40,15 +36,15 @@ public class GateWay extends HttpServlet {
                     activePost(gameReq, gameResp);
                 }
                 long endTime = System.currentTimeMillis();
-                log.debug("exec time[" + (endTime - beginTime) + " ms]");
-                log.debug(gameResp.toString());
+                Loggers.gateWay.debug("exec time[" + (endTime - beginTime) + " ms]");
+                Loggers.gateWay.debug(gameResp.toString());
 
             } else {
-                log.error(gameReq.toString());
+                Loggers.gateWay.error(gameReq.toString());
                 sysErr(resp);
             }
         } catch (Exception e) {
-            log.error(e.getMessage(), e);
+            Loggers.gateWay.error(e.getMessage(), e);
             sysErr(resp);
         }
     }
