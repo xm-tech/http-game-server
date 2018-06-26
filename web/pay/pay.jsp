@@ -1,15 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
 <%@ page import="com.alibaba.fastjson.JSONObject" %>
-<%@ page import="com.ppgames.core.GameReq" %>
-<%@ page import="com.ppgames.core.GameResp" %>
-<%@ page import="com.ppgames.core.db.GameLogDataSource" %>
-<%@ page import="com.ppgames.demo.cache.Cache" %>
-<%@ page import="com.ppgames.demo.config.item.PropItem" %>
-<%@ page import="com.ppgames.demo.model.Player" %>
-<%@ page import="com.ppgames.demo.model.mail.Mail" %>
-<%@ page import="com.ppgames.demo.model.mail.MailManager" %>
-<%@ page import="com.ppgames.util.BagType" %>
+<%@ page import="com.xxgames.core.GameReq" %>
+<%@ page import="com.xxgames.core.GameResp" %>
+<%@ page import="com.xxgames.core.db.GameLogDataSource" %>
+<%@ page import="com.xxgames.demo.cache.Cache" %>
+<%@ page import="com.xxgames.demo.config.item.PropItem" %>
+<%@ page import="com.xxgames.demo.model.Player" %>
+<%@ page import="com.xxgames.demo.model.mail.Mail" %>
+<%@ page import="com.xxgames.demo.model.mail.MailManager" %>
+<%@ page import="com.xxgames.util.BagType" %>
 <%@ page import="java.io.IOException" %>
 <%@ page import="java.sql.SQLException" %>
 <%@ page import="java.util.ArrayList" %>

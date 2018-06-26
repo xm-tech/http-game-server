@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ page import="com.ppgames.core.db.GameLogicDataSource" %>
-<%@ page import="com.ppgames.demo.cache.Cache" %>
-<%@ page import="com.ppgames.demo.model.Player" %>
-<%@ page import="com.ppgames.util.StrUtil" %>
+<%@ page import="com.xxgames.core.db.GameLogicDataSource" %>
+<%@ page import="com.xxgames.demo.cache.Cache" %>
+<%@ page import="com.xxgames.demo.model.Player" %>
+<%@ page import="com.xxgames.util.StrUtil" %>
 
 // FIXME 正式服不能存在该接口
 <form method="post" action="removePlayer.jsp">

@@ -34,7 +34,7 @@ game_conf(){
 
 mysql_conf(){
 	/usr/local/mysql/bin/mysql -u${db_user} -p${db_passwd} -e "create database ${db_name}; use ${db_name}; source ${db_template_file}; "
-	/usr/local/mysql/bin/mysql -u${db_user} -p${db_passwd} -e "GRANT ALL ON ${db_name}.* to ppgames@'%' IDENTIFIED BY 'Dfdfd#45@3!';FLUSH PRIVILEGES;"
+	/usr/local/mysql/bin/mysql -u${db_user} -p${db_passwd} -e "GRANT ALL ON ${db_name}.* to xxgames@'%' IDENTIFIED BY 'Dfdfd#45@3!';FLUSH PRIVILEGES;"
 
     show "mysql_conf ok"
 }

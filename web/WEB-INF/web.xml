@@ -5,12 +5,12 @@
 	version="3.0" metadata-complete="true">
 
 	<listener>
-		<listener-class>com.ppgames.core.GameContextListener</listener-class>
+		<listener-class>com.xxgames.core.GameContextListener</listener-class>
 	</listener>
 
 	<servlet>
 		<servlet-name>GateWay</servlet-name>
-		<servlet-class>com.ppgames.core.GateWay</servlet-class>
+		<servlet-class>com.xxgames.core.GateWay</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>GateWay</servlet-name>

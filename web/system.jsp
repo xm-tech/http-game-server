@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ page import="com.ppgames.core.GameContextListener" %>
-<%@ page import="com.ppgames.core.GameStatus" %>
-<%@ page import="com.ppgames.demo.task.DbSaveTask" %>
+<%@ page import="com.xxgames.core.GameContextListener" %>
+<%@ page import="com.xxgames.core.GameStatus" %>
+<%@ page import="com.xxgames.demo.task.DbSaveTask" %>
 
 <%
     String op = request.getParameter("op");
