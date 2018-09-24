@@ -9,6 +9,7 @@ import java.util.LinkedList;
 public class MsgQ {
     public static LinkedList<ChatMsg> chatQ = new LinkedList<>();
 
+
     public static void pushChat(ChatMsg msg) {
         synchronized (chatQ) {
             int qSize = chatQ.size();

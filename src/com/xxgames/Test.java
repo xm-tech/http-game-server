@@ -1,8 +1,6 @@
 package com.xxgames;
 
-import org.apache.commons.lang3.ArrayUtils;
-
-import java.util.concurrent.TimeUnit;
+import java.util.HashSet;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {
@@ -30,16 +28,22 @@ public class Test {
 //        latch.await(20, TimeUnit.SECONDS);
 //        System.out.println("stop");
 
-        long millis = TimeUnit.MINUTES.toMillis(5L);
-        System.out.println(millis);
+//        long millis = TimeUnit.MINUTES.toMillis(5L);
+//        System.out.println(millis);
+//
+//
+//        int[] excludes = new int[]{};
+//        excludes = ArrayUtils.add(excludes, 3);
+//        excludes = ArrayUtils.add(excludes, 4);
+//
+//        for (int e : excludes) {
+//            System.out.println(e);
+//        }
 
-
-        int[] excludes = new int[]{};
-        excludes = ArrayUtils.add(excludes, 3);
-        excludes = ArrayUtils.add(excludes, 4);
-
-        for (int e : excludes) {
-            System.out.println(e);
-        }
+        HashSet<String> set = new HashSet<>();
+        set.add("1");
+        boolean contains = set.contains("1");
+        System.out.println(contains);
+        System.out.println(set.contains("2"));
     }
 }

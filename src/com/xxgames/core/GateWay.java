@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@SuppressWarnings("serial")
+
+// TODO 解偶
 public class GateWay extends HttpServlet {
 
     @Override
@@ -21,6 +22,7 @@ public class GateWay extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         try {
             long beginTime = System.currentTimeMillis();
             GameReq gameReq = new GameReq(req);
@@ -29,11 +31,16 @@ public class GateWay extends HttpServlet {
             if (gameReq.isOk()) {
                 int msgid = gameReq.data.getIntValue("msgid");
                 GameResp gameResp = new GameResp(msgid, resp);
+                if (GameContextListener.gameStatus == GameStatus.MAINTAIN) {
+                    gameResp.send(ErrCode.SYS_MAINTINING);
+                    return;
+                }
+
                 if (msgid == MsgIds.Login.getVal()) {
-                    //login
-                    loginPost(gameReq, gameResp);
+                    GameAct gameAct = GameActs.get(msgid);
+                    gameAct.exec(gameReq, gameResp);
                 } else {
-                    activePost(gameReq, gameResp);
+                    process(gameReq, gameResp);
                 }
                 long endTime = System.currentTimeMillis();
                 Loggers.gateWay.debug("exec time[" + (endTime - beginTime) + " ms]");
@@ -59,17 +66,7 @@ public class GateWay extends HttpServlet {
         resp.getWriter().println(data);
     }
 
-    private void loginPost(GameReq gameReq, GameResp gameResp) {
-        if (GameContextListener.gameStatus == GameStatus.MAINTAIN) {
-            gameResp.send(ErrCode.SYS_MAINTINING);
-        } else {
-            GameAct gameAct = GameActs.get(MsgIds.Login.getVal());
-            gameAct.exec(gameReq, gameResp);
-        }
-
-    }
-
-    private void activePost(GameReq gameReq, GameResp gameResp) {
+    private void process(GameReq gameReq, GameResp gameResp) {
         int msgid = gameReq.data.getIntValue("msgid");
         long token = gameReq.data.getLongValue("token");
         long pid = gameReq.data.getLongValue("pid");
@@ -79,11 +76,7 @@ public class GateWay extends HttpServlet {
             return;
         }
 
-        if (GameContextListener.gameStatus == GameStatus.MAINTAIN) {
-            gameResp.send(ErrCode.SYS_MAINTINING);
-        } else {
-            GameAct gameAct = GameActs.get(msgid);
-            gameAct.exec(gameReq, gameResp);
-        }
+        GameAct gameAct = GameActs.get(msgid);
+        gameAct.exec(gameReq, gameResp);
     }
 }
