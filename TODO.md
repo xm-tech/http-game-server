@@ -3,6 +3,8 @@
 
 - remove some handlers
 
+- add async http support
+
 - add spring support
 
 - use newest open source api
