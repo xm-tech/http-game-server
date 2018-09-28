@@ -1,10 +1,12 @@
 
-- 遵循 ocp 原则, 以及常见设计模式 重构代码
+- refact code according to ocp and usual design patterns
 
 - remove some handlers
 
-- add async http support
-
 - add spring support
 
-- use newest open source api
+- replace prototype jdbc with mybatis
+
+- async http support
+
+- use apache commons or google guava for usual op
