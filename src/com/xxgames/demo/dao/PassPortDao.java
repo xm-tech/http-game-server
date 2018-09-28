@@ -24,4 +24,16 @@ public class PassPortDao {
             "(" + p.getId() + ",'" + p.getPassPort() + "'," + p.getServerId() + "," + p.getPid() +"," + p.getBinding() + ")";
         return val;
     }
+
+    private PassPortDao() {
+        //no instance
+    }
+
+    public static PassPortDao getInstance() {
+        return SingletonHolder.passPortDao;
+    }
+
+    private static class SingletonHolder {
+        private static PassPortDao passPortDao = new PassPortDao();
+    }
 }

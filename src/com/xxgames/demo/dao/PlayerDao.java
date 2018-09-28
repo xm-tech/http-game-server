@@ -124,4 +124,17 @@ public class PlayerDao {
         List<Map<String, Object>> query = GameLogicDataSource.instance.query(sql);
         return query;
     }
+
+
+    private PlayerDao() {
+        //no instance
+    }
+
+    public static PlayerDao getInstance() {
+        return SingletonHolder.playerDao;
+    }
+
+    private static class SingletonHolder{
+        private static PlayerDao playerDao = new PlayerDao();
+    }
 }

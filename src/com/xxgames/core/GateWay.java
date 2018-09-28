@@ -36,7 +36,7 @@ public class GateWay extends HttpServlet {
                     return;
                 }
 
-                if (msgid == MsgIds.Login.getVal()) {
+                if (msgid == MsgIds.LOGIN.getVal()) {
                     GameAct gameAct = GameActs.get(msgid);
                     gameAct.exec(gameReq, gameResp);
                 } else {

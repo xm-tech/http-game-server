@@ -44,4 +44,16 @@ public class ActivityDao {
         List<Map<String, Object>> query = GameLogicDataSource.instance.query(sql);
         return query;
     }
+
+    private ActivityDao() {
+        //no instance
+    }
+
+    public static ActivityDao getInstance() {
+        return SingletonHolder.activityDao;
+    }
+
+    private static class SingletonHolder{
+        private static ActivityDao activityDao = new ActivityDao();
+    }
 }

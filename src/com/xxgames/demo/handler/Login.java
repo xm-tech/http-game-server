@@ -4,11 +4,13 @@ import com.xxgames.core.ErrCode;
 import com.xxgames.core.GameAct;
 import com.xxgames.core.GameReq;
 import com.xxgames.core.GameResp;
+import com.xxgames.core.MsgHandler;
 import com.xxgames.core.db.GameLogicDataSource;
 import com.xxgames.demo.DataManager;
 import com.xxgames.demo.activity.ActivityManager;
 import com.xxgames.demo.cache.Cache;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.PlayerDao;
+import com.xxgames.demo.dao.QuestDao;
 import com.xxgames.demo.model.Passport;
 import com.xxgames.demo.model.Player;
 import com.xxgames.demo.model.quest.QuestList;
@@ -20,9 +22,12 @@ import org.slf4j.LoggerFactory;
 
 import java.sql.SQLException;
 
+
+@MsgHandler(msgId = 1)
 public class Login extends GameAct {
 
     private static Logger log = LoggerFactory.getLogger(Login.class);
+
 
     @Override
     public void exec(GameReq req, GameResp resp) {
@@ -72,10 +77,11 @@ public class Login extends GameAct {
 
         checkLoginActivity(p);
     }
+
     public QuestList getQuestList(GameResp resp, long pid) {
         QuestList q;
         try {
-            q = AllDao.qd.getQuestList(pid);
+            q = QuestDao.getInstance().getQuestList(pid);
         } catch (SQLException e) {
             log.error(e.getMessage(), e);
             resp.send(ErrCode.DB_EXEC_ERR);
@@ -84,7 +90,7 @@ public class Login extends GameAct {
         if (q == null) {
             q = new QuestList(pid);
             try {
-                AllDao.qd.saveQuests(q);
+                QuestDao.getInstance().saveQuests(q);
             } catch (SQLException e) {
                 log.error(e.getMessage(), e);
                 resp.send(ErrCode.DB_EXEC_ERR);
@@ -101,7 +107,7 @@ public class Login extends GameAct {
         try {
             // FIXME 始终要加载1次db，为了提高性能可在服务器重启过程先对热点玩家数据做预加载/或者做登陆排队(短连接可以保存session?)
             // 可能造成db线程争用
-            p = AllDao.pd.getPlayerById(pid);
+            p = PlayerDao.getInstance().getPlayerById(pid);
         } catch (SQLException e) {
             // mysql problem, need to check mysql server
             log.error(e.getMessage(), e);
@@ -113,7 +119,7 @@ public class Login extends GameAct {
             //p = new Player(pid);
             p = new Player();
             try {
-                long create_pid = AllDao.pd.createPlayer(p);
+                long create_pid = PlayerDao.getInstance().createPlayer(p);
                 p.setId(create_pid);
             } catch (SQLException e) {
                 log.error(e.getMessage(), e);
@@ -136,8 +142,22 @@ public class Login extends GameAct {
         }
         return true;
     }
-    private void checkLoginActivity(Player player){
+
+    private void checkLoginActivity(Player player) {
         int loginDay = TimeUtil.getDiffOfDay(player.getRegTime(), player.getLoginTime()) + 1;
         player.questEventListener.dispatchEvent(QuestEventId.LoginDay, loginDay);
     }
+
+    private Login() {
+        msgId = 1;
+    }
+
+    public static Login getInstance() {
+        return SingletonHolder.login;
+    }
+
+    private static class SingletonHolder {
+        private static Login login = new Login();
+    }
+
 }

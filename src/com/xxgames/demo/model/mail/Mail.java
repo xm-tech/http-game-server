@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.xxgames.core.ErrCode;
 import com.xxgames.demo.config.item.PropItem;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.MailDao;
 import com.xxgames.util.TimeUtil;
 import org.apache.log4j.Logger;
 
@@ -155,7 +155,7 @@ public class Mail {
         if (status > _status) { //邮件状态可以修改
             _status = status;
             try {
-                AllDao.md.updateMail(_mailid, status);
+                MailDao.getInstance().updateMail(_mailid, status);
             } catch (SQLException e) {
                 e.printStackTrace();
             }

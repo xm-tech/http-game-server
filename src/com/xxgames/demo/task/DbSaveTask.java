@@ -3,7 +3,9 @@ package com.xxgames.demo.task;
 import com.xxgames.core.db.GameLogicDataSource;
 import com.xxgames.demo.cache.Cache;
 import com.xxgames.demo.config.config.SystemConfConfig;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.PassPortDao;
+import com.xxgames.demo.dao.PlayerDao;
+import com.xxgames.demo.dao.QuestDao;
 import com.xxgames.demo.model.Passport;
 import com.xxgames.demo.model.Player;
 import com.xxgames.demo.model.quest.QuestList;
@@ -95,11 +97,11 @@ public class DbSaveTask implements Runnable {
         Map<Long, Player> players = Cache.players;
         Set<Entry<Long, Player>> entrySet = players.entrySet();
 
-        String sql = "replace into t_player(" + AllDao.pd.fields + ") values ";
+        String sql = "replace into t_player(" + PlayerDao.getInstance().fields + ") values ";
         int noDataSqlLen = sql.length();
         for (Entry<Long, Player> e : entrySet) {
             Player p = e.getValue();
-            sql += AllDao.pd.getColumnsStr(p) + ",";
+            sql += PlayerDao.getInstance().getColumnsStr(p) + ",";
         }
 
         if (sql.length() > noDataSqlLen) {
@@ -123,11 +125,11 @@ public class DbSaveTask implements Runnable {
 
         Set<Entry<Long, QuestList>> entrySet = quests.entrySet();
 
-        String sql = "replace into t_quest(" + AllDao.qd.fields + ") values ";
+        String sql = "replace into t_quest(" + QuestDao.getInstance().fields + ") values ";
         int noDataSqlLen = sql.length();
         for (Entry<Long, QuestList> e : entrySet) {
             QuestList q = e.getValue();
-            sql += AllDao.qd.getColumnsStr(q) + ",";
+            sql += QuestDao.getInstance().getColumnsStr(q) + ",";
         }
 
         if (sql.length() > noDataSqlLen) {
@@ -148,11 +150,11 @@ public class DbSaveTask implements Runnable {
         Map<String, Passport> passports = Cache.passports;
         Set<Entry<String, Passport>> entrySet = passports.entrySet();
 
-        String sql = "replace into t_passport(" + AllDao.passPortDao.fields + ") values ";
+        String sql = "replace into t_passport(" + PassPortDao.getInstance().fields + ") values ";
         int noDataSqlLen = sql.length();
         for (Entry<String, Passport> e : entrySet) {
             Passport passport = e.getValue();
-            sql += AllDao.passPortDao.getColumnsStr(passport) + ",";
+            sql += PassPortDao.getInstance().getColumnsStr(passport) + ",";
         }
 
         if (sql.length() > noDataSqlLen) {

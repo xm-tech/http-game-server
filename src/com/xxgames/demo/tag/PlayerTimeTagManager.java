@@ -1,6 +1,6 @@
 package com.xxgames.demo.tag;
 
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.TagDao;
 import com.xxgames.demo.model.Player;
 import com.xxgames.util.TimeUtil;
 
@@ -40,7 +40,7 @@ public class PlayerTimeTagManager {
     }
     private void insertDB(int tag_id , int now_time ){
         try {
-            AllDao.tagDao.insertTimeTag(_player.getId(),tag_id,now_time);
+            TagDao.getInstance().insertTimeTag(_player.getId(),tag_id,now_time);
         } catch (SQLException e) {
             e.printStackTrace();
             return;

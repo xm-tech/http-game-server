@@ -1,7 +1,7 @@
 package com.xxgames.demo.model.mail;
 
 import com.xxgames.demo.config.item.PropItem;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.MailDao;
 import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
@@ -24,7 +24,7 @@ public class MailManager {
         MailList maillist = _mailListManager.get(pid);
         if (maillist == null) {
             try {
-                maillist = AllDao.md.getMailList(pid);
+                maillist = MailDao.getInstance().getMailList(pid);
             } catch (SQLException e) {
                 logger.error("getMailManager() id = " + pid + ", error = " + e.getMessage());
                 maillist = new MailList();
@@ -46,7 +46,7 @@ public class MailManager {
         Mail mail = new Mail(playerid, senderid, sendername, title, content, attached, mailtype);
         long mailid = 0;
         try {
-            mailid = AllDao.md.insertMail(mail);
+            mailid = MailDao.getInstance().insertMail(mail);
         } catch (SQLException e) {
             e.printStackTrace();
             return;

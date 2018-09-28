@@ -42,7 +42,7 @@ import com.xxgames.demo.config.config.SystemShopConfig;
 import com.xxgames.demo.config.config.WholeSaleConfig;
 import com.xxgames.demo.config.config.WindowConfig;
 import com.xxgames.demo.config.item.ShelfItem;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.PlayerDao;
 import com.xxgames.demo.model.Player;
 import com.xxgames.demo.model.battle.PvpRanks;
 
@@ -126,7 +126,7 @@ public final class DataManager {
             pvp_part_index.put(parts[i], i);
         }
         //System.out.println("active_value_quest:" + active_value_quest);
-        all_player_names = AllDao.pd.getAllNames();
+        all_player_names = PlayerDao.getInstance().getAllNames();
         Cache.rebuild();
         PvpRanks.rebuild();
 

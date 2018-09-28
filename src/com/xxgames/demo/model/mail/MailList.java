@@ -3,7 +3,7 @@ package com.xxgames.demo.model.mail;
 import com.xxgames.core.ErrCode;
 import com.xxgames.demo.cache.Cache;
 import com.xxgames.demo.config.item.PropItem;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.MailDao;
 import com.xxgames.demo.model.Player;
 import org.apache.log4j.Logger;
 
@@ -80,7 +80,7 @@ public class MailList {
     public boolean deleteMail(Mail mail) {
         if (mail.delAble()) {
             try {
-                AllDao.md.deleteMail(mail.getMailId());
+                MailDao.getInstance().deleteMail(mail.getMailId());
             } catch (SQLException e) {
                 logger.error("mail delete failed. Mail id = " + mail.getMailId() + e.getMessage());
             }

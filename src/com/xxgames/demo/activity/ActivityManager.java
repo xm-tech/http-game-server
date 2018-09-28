@@ -2,7 +2,7 @@ package com.xxgames.demo.activity;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.ActivityDao;
 import com.xxgames.demo.utils.Const;
 import org.apache.log4j.Logger;
 
@@ -60,14 +60,14 @@ public class ActivityManager {
         shopAddPrice = null;
     }
     private void rebuildNewPlayerGroup()throws SQLException {
-        List<Map<String, Object>> allGroups = AllDao.activityDao.getAllNewPlayerGroups();
+        List<Map<String, Object>> allGroups = ActivityDao.getInstance().getAllNewPlayerGroups();
         for (Map<String, Object> m : allGroups) {
             ActivityGroup activityGroup = new ActivityGroup(m);
             newPlayerGroupMap.put(activityGroup.getGroupId(),activityGroup);
         }
         log.debug("rebuildAllGroups, " + newPlayerGroupMap.size());
 
-        List<Map<String, Object>> allActivitys = AllDao.activityDao.getAllNewPlayerActivityTasks();
+        List<Map<String, Object>> allActivitys = ActivityDao.getInstance().getAllNewPlayerActivityTasks();
         for (Map<String, Object> m : allActivitys) {
             ActivityBase activity = new ActivityBase(m);
             ActivityGroup group = newPlayerGroupMap.get(activity.getGroupId());
@@ -79,7 +79,7 @@ public class ActivityManager {
         }
     }
     private void rebuildNormalGroup()throws SQLException{
-        List<Map<String, Object>> allGroups = AllDao.activityDao.getAllNormalGroups();
+        List<Map<String, Object>> allGroups = ActivityDao.getInstance().getAllNormalGroups();
         for (Map<String, Object> m : allGroups) {
             ActivityGroup activityGroup = new ActivityGroup(m);
             if (activityGroup.getType() == Const.ACT_TYPE_BUFF){
@@ -96,7 +96,7 @@ public class ActivityManager {
             }
         }
 
-        List<Map<String, Object>> allActivitys = AllDao.activityDao.getAllNormalActivity();
+        List<Map<String, Object>> allActivitys = ActivityDao.getInstance().getAllNormalActivity();
         for (Map<String, Object> m : allActivitys) {
             ActivityBuy activity = new ActivityBuy(m);
             ActivityGroup group = normalGroupMap.get(activity.getGroupId());
@@ -108,13 +108,13 @@ public class ActivityManager {
         }
     }
     private void rebuildExchangeGroup()throws SQLException{
-        List<Map<String, Object>> allGroups = AllDao.activityDao.getAllExchangeGroups();
+        List<Map<String, Object>> allGroups = ActivityDao.getInstance().getAllExchangeGroups();
         for (Map<String, Object> m : allGroups) {
             ActivityGroup activityGroup = new ActivityGroup(m);
             exchangeGroupMap.put(activityGroup.getGroupId(),activityGroup);
         }
 
-        List<Map<String, Object>> allActivitys = AllDao.activityDao.getAllExchangeActivity();
+        List<Map<String, Object>> allActivitys = ActivityDao.getInstance().getAllExchangeActivity();
         for (Map<String, Object> m : allActivitys) {
             ActivityExchange activity = new ActivityExchange(m);
             ActivityGroup group = exchangeGroupMap.get(activity.getGroupId());

@@ -57,4 +57,17 @@ public class QuestDao {
         List<Map<String, Object>> query = GameLogicDataSource.instance.query(sql);
         return query;
     }
+
+    private QuestDao() {
+        //no instance
+    }
+
+    public static QuestDao getInstance() {
+        return SingletonHolder.questDao;
+    }
+
+    private static class SingletonHolder{
+        private static QuestDao questDao = new QuestDao();
+    }
+
 }

@@ -3,7 +3,6 @@ package com.xxgames.core;
 import com.xxgames.core.thread.AsynService;
 import com.xxgames.demo.DataManager;
 import com.xxgames.demo.TimeManager;
-import com.xxgames.demo.dao.AllDao;
 import com.xxgames.demo.handler.GameActs;
 import com.xxgames.demo.rank.RankManager;
 import com.xxgames.demo.task.DbSaveTask;
@@ -19,7 +18,6 @@ final class GameInitializer {
     static void init() {
         try {
             GameActs.init();
-            AllDao.init();
             DataManager.init();
             AsynService.submit(DbSaveTask.single);
             AsynService.submit(PvpRankRefreshTask.single);

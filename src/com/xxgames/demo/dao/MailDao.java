@@ -79,4 +79,16 @@ public class MailDao {
         }
         return ret;
     }
+
+    private MailDao() {
+        //no instance
+    }
+
+    public static MailDao getInstance() {
+        return SingletonHolder.mailDao;
+    }
+
+    private static class SingletonHolder{
+        private static MailDao mailDao = new MailDao();
+    }
 }

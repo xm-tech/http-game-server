@@ -113,4 +113,17 @@ public class SaveDecros extends GameAct {
         return true ;
     }
 
+    private SaveDecros() {
+        //no instance
+        msgId = 3;
+    }
+
+    public static SaveDecros getInstance() {
+        return SingletonHolder.saveDecros;
+    }
+
+    private static class SingletonHolder {
+        private static SaveDecros saveDecros = new SaveDecros();
+    }
+
 }

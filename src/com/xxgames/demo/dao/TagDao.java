@@ -66,4 +66,16 @@ public class TagDao {
         List<Map<String, Object>> query = GameLogicDataSource.instance.query(sql);
         return query;
     }
+
+    private TagDao() {
+        //no instance
+    }
+
+    public static TagDao getInstance() {
+        return SingletonHolder.tagDao;
+    }
+
+    private static class SingletonHolder{
+        private static TagDao tagDao = new TagDao();
+    }
 }

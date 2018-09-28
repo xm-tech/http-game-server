@@ -1,6 +1,9 @@
 package com.xxgames.demo.cache;
 
-import com.xxgames.demo.dao.AllDao;
+import com.xxgames.demo.dao.PassPortDao;
+import com.xxgames.demo.dao.PlayerDao;
+import com.xxgames.demo.dao.QuestDao;
+import com.xxgames.demo.dao.TagDao;
 import com.xxgames.demo.model.Passport;
 import com.xxgames.demo.model.Player;
 import com.xxgames.demo.model.quest.QuestList;
@@ -29,7 +32,7 @@ public class Cache {
     public static synchronized void rebuildPlayer() throws SQLException{
         players.clear();
         log.debug("clear cache player, " + players.size());
-        List<Map<String, Object>> allPlayers = AllDao.pd.getAllPlayers();
+        List<Map<String, Object>> allPlayers = PlayerDao.getInstance().getAllPlayers();
         for (Map<String, Object> m : allPlayers) {
             Player p = new Player(m);
             p.int_goods_places();
@@ -38,7 +41,7 @@ public class Cache {
     }
     public static synchronized void rebuildPlayerQuests() throws SQLException{
         log.debug("clear cache player quests, " + players.size());
-        List<Map<String, Object>> allPlayersQuests = AllDao.qd.getAllPlayersQuests();
+        List<Map<String, Object>> allPlayersQuests = QuestDao.getInstance().getAllPlayersQuests();
         for (Map<String, Object> m : allPlayersQuests) {
             QuestList questList = new QuestList(m);
             QuestManager.getInstance().AddQuestList(Long.parseLong(m.get("pid").toString()), questList);
@@ -47,7 +50,7 @@ public class Cache {
     public static synchronized void rebuildPassPort() throws SQLException{
         passports.clear();
         log.debug("clear cache passport, " + passports.size());
-        List<Map<String, Object>> allPassports = AllDao.passPortDao.getAllPassports();
+        List<Map<String, Object>> allPassports = PassPortDao.getInstance().getAllPassports();
         for (Map<String, Object> m : allPassports) {
             Passport passport = new Passport(m);
             String key = passport.getServerId() + "_" + passport.getPassPort();
@@ -55,8 +58,8 @@ public class Cache {
         }
     }
     public static synchronized void rebuildTimeTag()throws SQLException{
-        List<Map<String, Object>> allPlayerTimeTags = AllDao.tagDao.loadAllPlayerTimeTag();
-        List<Map<String, Object>> allPlayerCountTags = AllDao.tagDao.loadAllPlayerCountTag();
+        List<Map<String, Object>> allPlayerTimeTags = TagDao.getInstance().loadAllPlayerTimeTag();
+        List<Map<String, Object>> allPlayerCountTags = TagDao.getInstance().loadAllPlayerCountTag();
 
         for (Map<String,Object> m:
             allPlayerTimeTags) {
